@@ -37,13 +37,7 @@ halt
 ### Compile
 
 ```sh
-cmake
-```
-
-or
-
-```sh
-g++ main.cpp Instruction.cpp Instruction.h MyInput.cpp MyInput.h VirtualMachine.cpp VirtualMachine.h Scanner.cpp Scanner.h Loop.cpp Loop.h -o VirtualMachine -O3
+make
 ```
 
 ### Execute
@@ -54,4 +48,9 @@ g++ main.cpp Instruction.cpp Instruction.h MyInput.cpp MyInput.h VirtualMachine.
 
 ### Examples
 
-See testcases folder for more info.
+See MyTest/testcases folder for more info.
+
+### Run testcases
+
+1. Copy all .cpp and .h and Makefile to MyTest/queue
+2. cd MyTest then execute runtest.sh
